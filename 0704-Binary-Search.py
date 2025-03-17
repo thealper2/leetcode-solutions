@@ -10,7 +10,7 @@ class Solution:
 
             elif nums[mid] > target:
                 high = mid - 1
-            
+
             elif nums[mid] <= target:
                 low = mid + 1
 

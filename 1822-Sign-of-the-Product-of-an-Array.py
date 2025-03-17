@@ -1,5 +1,6 @@
 from typing import List
 
+
 def arraySign(nums: List[int]) -> int:
     sign = 1
 

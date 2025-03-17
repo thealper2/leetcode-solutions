@@ -1,5 +1,5 @@
 def mergeAlternately(word1: str, word2: str) -> str:
-    res = ''
+    res = ""
     i, j = 0, 0
     while len(res) < len(word1) + len(word2):
         if i < len(word1):

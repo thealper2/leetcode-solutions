@@ -1,10 +1,11 @@
 from typing import List
 
+
 def calPoints(operations: List[int]) -> int:
     res = []
     idx = -1
     for operation in operations:
-        #print(idx, res)
+        # print(idx, res)
         if operation == "C":
             res.pop()
             idx -= 1
@@ -12,7 +13,7 @@ def calPoints(operations: List[int]) -> int:
             res.append(int(res[idx]) * 2)
             idx += 1
         elif operation == "+":
-            res.append(int(res[idx]) + int(res[idx-1]))
+            res.append(int(res[idx]) + int(res[idx - 1]))
             idx += 1
         else:
             res.append(int(operation))

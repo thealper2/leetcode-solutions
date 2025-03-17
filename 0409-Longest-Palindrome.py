@@ -11,7 +11,7 @@ class Solution:
 
             if d[char] % 2 == 0:
                 result += 2
-            
+
         for count in d.values():
             if count % 2 == 1:
                 result += 1

@@ -19,7 +19,7 @@ class Solution:
             curr.next = prev
             prev = curr
             curr = next_node
-        
+
         while prev:
             if prev.val != head.val:
                 return False

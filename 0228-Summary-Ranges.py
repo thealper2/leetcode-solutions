@@ -2,7 +2,7 @@ class Solution:
     def summaryRanges(self, nums: List[int]) -> List[str]:
         if len(nums) == 0:
             return []
-        
+
         ranges = []
         start = nums[0]
         end = nums[0]

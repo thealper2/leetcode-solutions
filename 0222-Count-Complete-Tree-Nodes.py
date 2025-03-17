@@ -19,5 +19,3 @@ class Solution:
 
         result = self.total_complete_nodes(root)
         return result
-
-        

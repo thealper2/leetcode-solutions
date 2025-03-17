@@ -5,7 +5,7 @@ class Solution:
 
         if num == 0:
             return "0"
-        
+
         if num < 0:
             num += 1 << 32
 

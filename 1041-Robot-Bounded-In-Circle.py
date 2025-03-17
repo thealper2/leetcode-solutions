@@ -4,13 +4,13 @@ def isRobotBounded(instructions: str) -> bool:
     direction_index = 0
 
     for instruction in instructions:
-        if instruction == 'G':
+        if instruction == "G":
             dx, dy = directions[direction_index]
             x += dx
             y += dy
-        elif instruction == 'L':
+        elif instruction == "L":
             direction_index = (direction_index - 1) % 4
-        elif instruction == 'R':
+        elif instruction == "R":
             direction_index = (direction_index + 1) % 4
 
     return (x == 0 and y == 0) or direction_index != 0

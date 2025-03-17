@@ -1,5 +1,6 @@
 from typing import List
 
+
 def majorityElement(nums: List[int]) -> int:
     uniq = []
     for i in nums:
@@ -8,7 +9,7 @@ def majorityElement(nums: List[int]) -> int:
 
     major = 0
     for i in uniq:
-        #print(i, nums.count(i))
+        # print(i, nums.count(i))
         if nums.count(i) > nums.count(major):
             major = i
 

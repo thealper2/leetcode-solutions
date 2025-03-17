@@ -7,10 +7,10 @@ class Solution:
 
         for i in range(len(s_num)):
             if s_num[i] == "6" and found == False:
-                temp += 9 * (10 ** idx)
+                temp += 9 * (10**idx)
                 found = True
             else:
-                temp += int(s_num[i]) * (10 ** idx)
+                temp += int(s_num[i]) * (10**idx)
 
             idx -= 1
 

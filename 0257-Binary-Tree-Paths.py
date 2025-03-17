@@ -8,7 +8,7 @@ class Solution:
     def depth_first_search(self, node, current_path, result):
         if node == None:
             return
-        
+
         current_path += "->" + str(node.val)
 
         if node.left == None and node.right == None:
@@ -36,5 +36,3 @@ class Solution:
             self.depth_first_search(root.right, current_path, result)
 
         return result
-
-        

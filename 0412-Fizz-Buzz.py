@@ -10,7 +10,7 @@ class Solution:
 
             elif i % 3 == 0:
                 arr.append("Fizz")
-            
+
             else:
                 arr.append(str(i))
 

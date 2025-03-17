@@ -1,5 +1,6 @@
 from typing import List
 
+
 def removeElement(nums: List[int], val: int) -> int:
     val_count = nums.count(val)
     while val_count != 0:

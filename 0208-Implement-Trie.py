@@ -3,10 +3,10 @@ class TrieNode:
         self.children = {}
         self.end_of_string = False
 
-class Trie:
 
+class Trie:
     def __init__(self):
-        self.root = TrieNode()        
+        self.root = TrieNode()
 
     def insert(self, word: str) -> None:
         node = self.root

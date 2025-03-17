@@ -1,5 +1,6 @@
 from typing import List
 
+
 def removeDuplicates(nums: List[int]) -> int:
     uniq = []
     for i in nums:
@@ -12,5 +13,5 @@ def removeDuplicates(nums: List[int]) -> int:
             nums.remove(i)
             c = c - 1
 
-    #print(nums)
+    # print(nums)
     return len(nums)

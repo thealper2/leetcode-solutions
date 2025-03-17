@@ -1,5 +1,6 @@
 from typing import List
 
+
 def maximumWealth(accounts: List[List[int]]) -> int:
     max = 0
     for account in accounts:

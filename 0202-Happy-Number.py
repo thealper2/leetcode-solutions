@@ -12,7 +12,7 @@ class Solution:
             n = result
             if n in seen:
                 return False
-            
+
             seen.add(n)
 
         return True

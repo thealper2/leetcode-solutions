@@ -1,5 +1,6 @@
 from typing import List
 
+
 def hIndex(citations: List[int]) -> int:
     citations.sort()
     h = len(citations)
@@ -7,5 +8,5 @@ def hIndex(citations: List[int]) -> int:
         if i < h:
             h = h - 1
 
-    #print(h)
+    # print(h)
     return h

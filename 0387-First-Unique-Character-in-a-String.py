@@ -11,5 +11,5 @@ class Solution:
 
             if not found:
                 return i
-            
+
         return -1

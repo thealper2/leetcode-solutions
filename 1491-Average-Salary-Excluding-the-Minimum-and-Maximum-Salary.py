@@ -5,4 +5,4 @@ def average(salary: List[int]) -> float:
         salary.remove(max_salary)
 
     print(min_salary, max_salary)
-    return float('%.5f' % (sum(salary) / len(salary)))
+    return float("%.5f" % (sum(salary) / len(salary)))

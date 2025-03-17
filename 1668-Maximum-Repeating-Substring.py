@@ -6,7 +6,7 @@ class Solution:
             search = word * i
             n = len(search)
             for j in range(0, len(sequence)):
-                if sequence[j:j+n] == search:
+                if sequence[j : j + n] == search:
                     times += 1
                     break
 

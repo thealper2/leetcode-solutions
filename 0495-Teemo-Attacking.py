@@ -7,5 +7,5 @@ class Solution:
                 total += duration
             else:
                 total += last
-        
+
         return total

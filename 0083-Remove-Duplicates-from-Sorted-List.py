@@ -12,5 +12,5 @@ class Solution:
                 current_node.next = current_node.next.next
 
             current_node = current_node.next
-            
+
         return head

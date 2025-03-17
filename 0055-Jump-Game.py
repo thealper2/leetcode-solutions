@@ -1,5 +1,6 @@
 from typing import List
 
+
 def canJump(nums: List[int]) -> bool:
     idx = 0
     for i, num in enumerate(nums):

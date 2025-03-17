@@ -1,6 +1,6 @@
 class Solution:
     def thirdMax(self, nums: List[int]) -> int:
-        max1, max2, max3 = float("-infinity"), float("-infinity"), float("-infinity") 
+        max1, max2, max3 = float("-infinity"), float("-infinity"), float("-infinity")
 
         for num in nums:
             if num == max1 or num == max2 or num == max3:

@@ -8,7 +8,7 @@ class Solution:
             x2 = (x1 + x / x1) / 2
             if x1 == x2:
                 break
-                
+
             x1 = x2
 
         return int(x1)

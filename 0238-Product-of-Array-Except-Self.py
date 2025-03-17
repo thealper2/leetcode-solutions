@@ -1,5 +1,6 @@
 from typing import List
 
+
 def productExceptSelf(nums: List[int]) -> List[int]:
     n = len(nums)
     left_products = [1] * n

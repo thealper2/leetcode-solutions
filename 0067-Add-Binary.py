@@ -20,7 +20,7 @@ def addBinary(a: str, b: str) -> str:
         sonuc.append(str(sonuc_b))
 
     if tasima:
-        sonuc.append('1')
+        sonuc.append("1")
 
     sonuc.reverse()
-    return ''.join(sonuc)
+    return "".join(sonuc)

@@ -1,5 +1,6 @@
 from typing import List
 
+
 def longestCommonPrefix(strs: List[str]) -> str:
     shortest_word = min(strs, key=len)
     ans = ""

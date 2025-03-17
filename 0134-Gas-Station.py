@@ -1,5 +1,6 @@
 from typing import List
 
+
 def canCompleteCircuit(gas: List[int], cost: List[int]) -> int:
     if sum(cost) > sum(gas):
         return -1
@@ -7,7 +8,7 @@ def canCompleteCircuit(gas: List[int], cost: List[int]) -> int:
     tank, res = 0, 0
 
     for i in range(len(gas)):
-        tank += (gas[i] - cost[i])
+        tank += gas[i] - cost[i]
         print(i, tank)
 
         if tank < 0:

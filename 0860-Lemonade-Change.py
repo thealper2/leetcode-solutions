@@ -10,7 +10,7 @@ def lemonadeChange(bills: List[int]) -> bool:
             bank[5] -= 1
 
         elif bill == 20 and ((bank[5] > 0 and bank[10] > 0) or bank[5] >= 3):
-            if (bank[5] > 0 and bank[10] > 0):
+            if bank[5] > 0 and bank[10] > 0:
                 bank[5] -= 1
                 bank[10] -= 1
             else:

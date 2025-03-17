@@ -10,8 +10,10 @@ class Solution:
             prev = groups[i]
 
         return result
-    
+
+
 ###
+
 
 class Solution2:
     def getLongestSubsequence(self, words: List[str], groups: List[int]) -> List[str]:
@@ -19,5 +21,5 @@ class Solution2:
         for i in range(1, len(words)):
             if groups[i] != groups[i - 1]:
                 result.append(words[i])
-        
+
         return result

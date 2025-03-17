@@ -1,5 +1,6 @@
 from typing import List
 
+
 def merge(nums1: List[int], m: int, nums2: List[int], n: int) -> None:
     r1 = len(nums1) - m
     for i in range(r1):
