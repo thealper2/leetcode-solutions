@@ -4,12 +4,8 @@ from typing import List
 class Solution:
     def maxAdjacentDistance(self, nums: List[int]) -> int:
         n = len(nums)
-        max_diff = 0
+        max_distance = 0
         for i in range(n):
-            curr = nums[i]
-            next_num = nums[(i + 1) % n]
-            diff = abs(curr - next_num)
-            if diff > max_diff:
-                max_diff = diff
+            max_distance = max(max_distance, abs(nums[i] - nums[i - 1]))
 
-        return max_diff
+        return max_distance
